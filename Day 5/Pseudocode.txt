@@ -1,0 +1,8 @@
+SIMPAN nama dengan value andre
+SIMPAN password dengan value 123
+SIMPAN isiLogin dengan value false
+
+SIMPAN sintaks prompt dengan label Nama
+SIMPAN sintaks prompt dengan label Password
+SIMPAN sintaks prompt dengan label Role
+

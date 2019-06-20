@@ -1,0 +1,37 @@
+1  SIMPAN penumpang value 0
+   SIMPAN rpm value 20
+   
+     IF penumpang > 2
+      CONSOLE kecepatan - 5
+       ELSE IF penumpang 4 
+       	CONSOLE kecepatan - 7
+     	 ELSE IF penumpang <= 4
+       	  CONSOLE kecepatan - 2
+   
+   Display rpm
+     
+2  SIMPAN nilai value 0
+   IF nilai <= 100 & nilai >= 85
+    CONSOLE "grade A"
+     ELSE IF nilai >= 84 & < 75
+      CONSOLE "grade B"
+       ELSE IF nilai >= 74 & nilai <= 65
+        CONSOLE "grade C"
+         ELSE IF nilai <= 64 & nilai >= 55
+          CONSOLE "grade D"
+	   ELSE IF nilai <= 54 & nilai >= 0
+	    CONSOLE "grade E"
+   
+   DISLAY grade
+       
+3  SIMPAN pengunjung value 0
+   SIMPAN sisaOrang value tidak ada
+   SIMPAN meja value 0
+   
+   KETIKA pengunjung < 50
+     CALCULATE pengunjung + 3
+     CALCULATE meja + 1
+   
+   CALCULATE sisaOrang mod 3
+   
+   DISPLAY meja dan sisaOrang
